@@ -6,9 +6,9 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
+  template: `Hello World`,
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'current-directory';
+  title = 'default';
 }
