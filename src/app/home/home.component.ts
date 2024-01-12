@@ -10,14 +10,14 @@ import { Housinglocation } from '../housinglocation';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  readonly baseUrl = '/assets/tutorials/common';
+  readonly baseUrl = 'https://picsum.photos/';
 
   housingLocation: Housinglocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
-    photo: `${this.baseUrl}/example-house.jpg`,
+    photo: `https://picsum.photos/200/300`,
     availableUnits: 99,
     wifi: true,
     laundry: false,
