@@ -12,9 +12,9 @@
     </button>
   </form>
 </section>
-<section class="mt-12 grid grid-cols-[200px_minmax(900px,_1fr)_100px]">
+<section class="mt-12 grid gap-3 grid-cols-[repeat(auto-fill,minmax(auto,_400px))]">
   <app-housing-location
-    *ngFor="let housingLocation of housingLocationList"
-    [housingLocation]="housingLocation"
-  />
+        *ngFor="let housingLocation of housingLocationList"
+        [housingLocation]="housingLocation">
+      </app-housing-location>
 </section>

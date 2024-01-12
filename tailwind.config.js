@@ -9,6 +9,7 @@ module.exports = {
       'secondary': '#8B89E6',
       'accent': '#e8e7fa',
       'white': '#ffffff',
+      'shadow-bg': '#E8E8E8',
     },
   },
   plugins: [
